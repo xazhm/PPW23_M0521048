@@ -11,7 +11,7 @@ Route::get('/tasks9', function () {
    return view('hello');
 });
 
-Route::get('/tasks10', function () {
+Route::get('/tasks11', function () {
     $submissions = App\Models\User::all();
     return view('home', compact('submissions'));
 });
@@ -24,6 +24,8 @@ Route::get('/table', function () {
 Route::get('/form', function () {
     return view('form');
 });
+
+Route::post('/submit-form', [UserController::class, 'store']);
 
 Route::post('/submit-form', function (Illuminate\Http\Request $request) {
     $validatedData = $request->validate([
