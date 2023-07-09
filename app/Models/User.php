@@ -12,6 +12,9 @@ class User extends Model
     protected $fillable = [
         'name',
         'email',
+<<<<<<< HEAD
         'image',
+=======
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
     ];
 }

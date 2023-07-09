@@ -11,10 +11,18 @@
             <thead>
                 <tr>
                     <th>
+<<<<<<< HEAD
                         <input class="form-check-input" type="checkbox" id="selectAll" hidden>
                     </th>
                     <th>No</th>
                     <th>Gambar</th>
+=======
+
+                        <input class="form-check-input" type="checkbox" id="selectAll" hidden>
+
+                    </th>
+                    <th>No</th>
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
                     <th>Nama</th>
                     <th>Email</th>
                     <th>Aksi</th>
@@ -28,6 +36,7 @@
                 <tr>
                     <td>
                         <div class="form-check">
+<<<<<<< HEAD
                             <input class="form-check-input" type="checkbox" name="selectedUsers[]"
                                 value="{{ $user->id }}" checked>
                         </div>
@@ -36,6 +45,12 @@
                     <td>
                         <img src="{{ asset('storage/images/'.$user->image) }}" alt="User Image" width="50" height="50">
                     </td>
+=======
+                            →
+                        </div>
+                    </td>
+                    <td>{{ $counter++ }}</td>
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
                     <td>{{ $user->name }}</td>
                     <td>{{ $user->email }}</td>
                     <td>
@@ -49,6 +64,10 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" name="selectedUsers[]"
                                     value="{{ $user->id }}" checked>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
                             </div>
                         </div>
                     </td>
@@ -70,6 +89,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     var deleteButton = document.getElementById('deleteButton');
     var cancelButton = document.getElementById('cancelButton');
+<<<<<<< HEAD
+=======
+    // Rest of your JavaScript code
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
     var checkboxes = document.querySelectorAll('.form-check-input');
     var normalActions = document.querySelectorAll('.normal-actions');
     var deleteActions = document.querySelectorAll('.delete-actions');

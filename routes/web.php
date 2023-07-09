@@ -11,7 +11,11 @@ Route::get('/tasks9', function () {
    return view('hello');
 });
 
+<<<<<<< HEAD
 Route::get('/tasks11', function () {
+=======
+Route::get('/tasks10', function () {
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
     $submissions = App\Models\User::all();
     return view('home', compact('submissions'));
 });
@@ -25,8 +29,11 @@ Route::get('/form', function () {
     return view('form');
 });
 
+<<<<<<< HEAD
 Route::post('/submit-form', [UserController::class, 'store']);
 
+=======
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
 Route::post('/submit-form', function (Illuminate\Http\Request $request) {
     $validatedData = $request->validate([
         'name' => 'required',

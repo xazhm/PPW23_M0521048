@@ -62,6 +62,7 @@ class UserController extends Controller
 
         return redirect('/table')->with('success', 'User berhasil diperbarui');
     }
+<<<<<<< HEAD
 
 public function store(Request $request)
 {
@@ -85,4 +86,6 @@ public function store(Request $request)
     return redirect('/table')->with('success', 'Data berhasil ditambahkan.');
 }
 
+=======
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
 }

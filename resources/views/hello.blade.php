@@ -269,10 +269,17 @@
                                                     type="submit">
                                                     <span class="btn-caption"><i>HOME, VIEW TABLE, AND FORM</i></span>
                                                 </a> -->
+<<<<<<< HEAD
                                                 <h5>WEEK 11 :</h5>
                                                 <a href="/tasks11" class="btn btn-l btn-light link-m-opposite"
                                                     type="submit">
                                                     <span class="btn-caption">LARAVEL 11</span>
+=======
+                                                <h5>WEEK 10 :</h5>
+                                                <a href="/tasks10" class="btn btn-l btn-light link-m-opposite"
+                                                    type="submit">
+                                                    <span class="btn-caption">HOME, VIEW TABLE, AND FORM</span>
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
                                                 </a>
                                             </div>
                                         </div>
@@ -573,9 +580,15 @@
                     <a href="/tasks9" class="btn btn-l btn-light link-m-opposite" type="submit">
                         <span class="btn-caption"><i>HOME, VIEW TABLE, AND FORM</i></span>
                     </a> -->
+<<<<<<< HEAD
                     <h5>WEEK 11 :</h5>
                     <a href="/tasks11" class="btn btn-l btn-light link-m-opposite" type="submit">
                         <span class="btn-caption">LARAVEL 11</span>
+=======
+                    <h5>WEEK 10 :</h5>
+                    <a href="/tasks10" class="btn btn-l btn-light link-m-opposite" type="submit">
+                        <span class="btn-caption">HOME, VIEW TABLE, AND FORM</span>
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
                     </a>
                 </div>
                 <!-- Say Hello Form Container End -->

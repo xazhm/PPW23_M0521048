@@ -2,7 +2,11 @@
 <html>
 
 <head>
+<<<<<<< HEAD
     <title>MY APP</title>
+=======
+    <title>My App</title>
+>>>>>>> 900c954ac77b78dc6c78db428a9e9fefc896b08f
     <!-- Menambahkan link CSS Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
